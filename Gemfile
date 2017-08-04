@@ -50,6 +50,9 @@ group :development do
   
   gem 'kaminari'
   
+  group :production do
+  gem 'pg'
+end
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
